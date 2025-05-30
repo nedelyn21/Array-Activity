@@ -1,16 +1,17 @@
-//create a variable that store my Favorite Singers
-let favSingers = ["Mariah Carey", "Bretny Spears", "Ariana Grande", "Moira Dela Torre", "A1", "Celine Dion", "Jihoon", "Bruno Mars", "Kristel Fulgar"];
-// To console the first item in the array
-console.log(favSingers[0]);
+// Array of favorite singers
+let favSingers = ["Taylor Swift", "Ariana Grande", "Ed Sheeran"];
 
-//Create a variable that store my Favorite Number
-let favNumbers = [12, 14, 5];
-//Create a variable that store a mix array like strings, Integer, boolean and decimal
-let mixedArr = ["Rina", 1214, true, "Llanes", 2005];
+// Log the first singer
+console.log("First singer:", favSingers[0]);
 
-//To console the item of variable mixedArr using array index notation.
-console.log(mixedArr[0]);
-console.log(mixedArr[1]);
-console.log(mixedArr[2]);
-console.log(mixedArr[3]);
-console.log(mixedArr[4]);
+// Array of favorite numbers
+let favNumbers = [7, 14, 21, 28];
+
+// Mixed array with different data types
+let mixedArr = ["string", "otherarray", 123, true];
+
+// Access and log each item in mixedArr
+console.log("mixedArr[0]:", mixedArr[0]);
+console.log("mixedArr[1]:", mixedArr[1]);
+console.log("mixedArr[2]:", mixedArr[2]);
+console.log("mixedArr[3]:", mixedArr[3]);
